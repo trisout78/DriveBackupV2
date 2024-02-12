@@ -18,7 +18,7 @@ public class DriveBackupApi {
     private static ArrayList<Runnable> onBackupErrorRunnables = new ArrayList<>();
 
     /**
-     * Gets whether to proceed with the backup by executing the {@code Callable}s specified by API users.
+     * Gets whether to proceed with the backup by executing the {@code Callable}s specified by API users
      * @return whether to proceed
      */
     static boolean shouldStartBackup() {
