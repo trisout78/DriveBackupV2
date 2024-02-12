@@ -540,7 +540,7 @@ public class UploadThread implements Runnable {
     }
 
     /**
-     * Gets the date/time of the next automatic backup, if enabled.
+     * Gets the date/time of the next automatic backup, if enabled
      * @return the time and/or date of the next automatic backup formatted using the messages in the {@code config.yml} 
      */
     public static String getNextAutoBackup() {
