@@ -169,6 +169,7 @@ public class UploadThread implements Runnable {
      */
     @Override
     public void run() {
+        Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "save-all");
         if (!locationsToBePruned.isEmpty()) {
             locationsToBePruned.clear();
         }
